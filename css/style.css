@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+	line-height: 1;
+	overflow-x: hidden;
+}
+.wrapper {
+	min-height: 100%;
+	
+
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0px;
+	background-color: #c55a5a;
+	font-size: 50px;
+}
+.header__span {
+	display: inline-flex;
+	font-size: 100px;
+	color: #472c2c;
+
+}
+.header__tittle {
+	color: #464242;
+	display: inline-flex;
+	border: 5px solid #472c2c;
+	border-radius: 15px;
+	
+}
+
+
+
+.logo {
+	background: url("../img/logo/BG.jpg") 0 0/cover no-repeat;
+	display: flex;
+	justify-content: center;
+	padding: 26px 0px 40px 0px;
+}
+
+[class*="__container"] {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+@media (max-width: 1050px) {
+	[class*="__container"] {
+		max-width: 970px;
+		
+	}
+}
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: 750px;
+		
+	}
+}
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+		
+	}
+}
+
+.logo__items {
+	max-width: 1020px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex: 0 1 100%;
+}
+.item__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 28px;
+	flex: 0 1 100%;
+
+}
+.item__logo {
+	display: flex;
+	justify-content: flex-start;
+	flex: 0 1 174px;
+	
+
+}
+.item__utility {
+	display: flex;
+	flex: 0 1 610px;
+}
+.utility__item {
+	display: flex;
+	justify-content: start;
+	margin-right: 30px;
+	flex: 0 1 206px;
+}
+.utility__item_width {
+	flex: 0 1 131px;
+}
+.utility__img {
+	max-width: 24px;
+	margin-right: 10px;
+}
+.utiliy__tittle {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.83;
+	letter-spacing: 0.15px;
+	color: #FFFFFF;
+
+}
+
+.utility__button {
+	max-width: 211px;
+	padding: 12px 30px;
+	background-color: #F2726F;
+	border-radius: 15px;
+	text-align: center;
+
+}
+.button__make {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+.logo__nav {
+	display: flex;
+	justify-content: start;
+	border-radius: 10px;
+	padding: 10px 40px;
+	column-gap: 37px;
+	background: url("../img/logo/search_24px.svg") 90% 50%/auto no-repeat,url("../img/logo/Screenshot_3.jpg") 95% 50%/auto no-repeat #fff;
+}
+.nav__logo {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.57;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #000000;
+	flex: 0 1 58px;
+	min-height: 40px;
+}
+
+.nav__logo_width {
+	background: url("../img/logo/expand_more_24px.svg") 100% 50%/24px 24px no-repeat;
+	flex: 0 1 77px;
+}
+
+.nav__logo_arrow {
+	background: url("../img/logo/expand_more_24px.svg") 100% 50%/24px 24px no-repeat;
+	
+}
+
+@media (max-width: 768.5px) {
+	.utility__item {
+		margin-right: 5px;
+	}
+}
+
+@media (max-width: 687.5px) {
+	.item__top {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		
+	}
+	
+	.item__utility {
+		display: flex;
+		flex-wrap: wrap;
+		flex: 0 0 100%;
+		font-size: 12px;
+	}
+
+	.logo__nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: url("../img/logo/search_24px.svg") 10% 98%/auto no-repeat,url("../img/logo/Screenshot_3.jpg") 90% 99%/auto no-repeat #fff;
+		align-self: center;
+	}
+	.nav__logo_width {
+		background: url("../img/logo/expand_more_24px.svg") 100% 50%/24px 24px no-repeat;
+		padding: 0px 20px 0px 0px;
+	
+	}
+	
+	.nav__logo_arrow {
+		background: url("../img/logo/expand_more_24px.svg") 100% 50%/24px 24px no-repeat;
+		padding: 0px 20px 0px 0px;
+	}
+	.header {
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
